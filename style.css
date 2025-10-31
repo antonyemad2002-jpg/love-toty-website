@@ -1,0 +1,92 @@
+:root{
+  --bg:#0a0a15;
+  --card:#1e1e2f;
+  --accent:#ff5e8a;
+  --text:#f9f9f9;
+}
+
+*{
+  box-sizing:border-box;
+  font-family:"Cairo",sans-serif;
+  direction:rtl;
+}
+
+body{
+  margin:0;
+  background:radial-gradient(circle at top,#12121f,#0a0a15);
+  color:var(--text);
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+}
+
+.wrap{width:100%;max-width:720px;}
+
+.card{
+  background:var(--card);
+  padding:28px;
+  border-radius:12px;
+  box-shadow:0 8px 30px rgba(255,255,255,0.06);
+  text-align:center;
+  position:relative;
+}
+
+.hidden{display:none;}
+
+input[type=password]{
+  width:100%;
+  padding:12px;
+  border-radius:8px;
+  border:1px solid #444;
+  margin:12px 0;
+  font-size:16px;
+  background:#111;
+  color:#fff;
+}
+
+button{
+  background:var(--accent);
+  color:#fff;
+  border:0;
+  padding:10px 16px;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:16px;
+}
+
+.msg{color:#ff8080;margin-top:10px;}
+
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  justify-content:center;
+  margin-top:16px;
+}
+
+.gallery img{
+  width:140px;
+  height:140px;
+  object-fit:cover;
+  border-radius:8px;
+  box-shadow:0 6px 18px rgba(255,255,255,0.1);
+  transition:transform .3s;
+}
+
+.gallery img:hover{transform:scale(1.05);}
+
+.player{margin-top:18px;}
+.love-words{font-size:18px;margin-top:6px;color:#ffcedd;line-height:1.6;}
+.close{
+  position:absolute;
+  top:10px;
+  left:10px;
+  background:transparent;
+  color:#888;
+  font-size:26px;
+  padding:6px;
+  border-radius:6px;
+}
+h1,h2{margin:6px 0;}
