@@ -1,4 +1,4 @@
-const PASSWORD = "1522003";
+const PASSWORD = "152200";
 
 const WORDS = [
   "بحبكك اوي اوي وبموت فيكي 🥹♥️",
@@ -6,7 +6,7 @@ const WORDS = [
   "انا جمبك ومعاكي ومش هسيبك يا احلي حاجه حصلالي فحياتي♥️🫂"
 ];
 
-const
+const IMAGES = [
   "images/pic1.jpg.HEIC",
   "images/pic2.jpg.HEIC",
   "images/pic3.jpg.HEIC",
