@@ -6,15 +6,15 @@ const WORDS = [
   "انا جمبك ومعاكي ومش هسيبك يا احلي حاجه حصلالي فحياتي♥️🫂"
 ];
 
-const IMAGES = [
-  "images/pic1.jpg",
-  "images/pic2.jpg",
-  "images/pic3.jpg",
-  "images/pic4.jpg",
-  "images/pic5.jpg"
+const
+  "images/pic1.jpg.HEIC",
+  "images/pic2.jpg.HEIC",
+  "images/pic3.jpg.HEIC",
+  "images/pic4.jpg.HEIC",
+  "images/pic5.jpg.JPG"
 ];
 
-const AUDIO_PATH = "audio/song.mp3";
+const AUDIO_PATH = "song.mp3.mp3";
 
 const pwInput = document.getElementById('pw');
 const openBtn = document.getElementById('openBtn');
